@@ -1,0 +1,26 @@
+site_name: "CJ Leow"
+
+theme:
+  name: "material"
+
+plugins:
+- search
+- mkdocstrings
+
+nav:
+- Home: index.md
+- How_to_Guides:
+      - Area of Rectangle: How_to_guides/area_of_rectangle.md
+      - Have Digits: How_to_guides/have_digits.md
+      - My Adder: How_to_guides/my_adder.md
+      - My Thermostat: How_to_guides/my_thermo_stat.md
+      - Perimeter of Rectangle: How_to_guides/perimeter_of_rectangle.md
+
+- Tutorials: 
+      - Tutorial_1: Tutorials/tutorial1.md
+
+- Reference: 
+      - API: Reference/api.md
+
+- Explanation: 
+      - how_it_works: Explanation/how_it_works.md
